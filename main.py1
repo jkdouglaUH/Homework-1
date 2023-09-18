@@ -1,0 +1,19 @@
+print('Birthday Calculator')
+print('Current day')
+month = int(input('Month: '))
+day = int(input('Day: '))
+year = int(input('Year: '))
+print('Birthday')
+month2 = int(input('Month: '))
+day2 = int(input('Day: '))
+year2 = int(input('Year: '))
+
+if (month < month2 and day==day2 ) or  (month==month2 and day < day2):
+  age = year - year2 - 1
+else:
+  age = year - year2
+print('You are', age, 'years old.')
+if month == month2 and day == day2:
+    print('Happy Birthday!')
+
+
